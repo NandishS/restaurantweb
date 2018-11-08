@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="styling_sheet.css">
+<title>International House of Kabob</title>
+<style>
+#wrapper {
+	height: auto;
+}
+main {
+	height: auto;
+}
+#form {
+	margin: 0px;
+	padding: 25px;
+	width: auto;
+	height: auto;
+}
+#order {
+	vertical-align: text-top;
+}
+.image {
+	width: 35%;
+	height: 35%;
+	float: right;
+}
+table {
+	float: left;
+}
+</style>
+</head>
+<body>
+	<div id="wrapper">
+	<header></header>
+    	<nav>
+        	<ul>
+            	<li><a href="index.html">HOME</a></li>
+              <li><a href="menu.html">MENU</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+              <li><a href="history.html">HISTORY</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+	<main>
+        <div id="form">
+        	<form method="post" id="address">
+						<table>
+							<tr>
+								<td>
+									<strong>Services:</strong>
+								</td>
+								<td>
+									<select>
+										<option value="">Select One</option>
+										<option value="">-----</option>
+										<option value="">Bar</option>
+										<option value="">Banquet</option>
+										<option value="">Catering</option>
+										<option value="">Delivery</option>
+										<option value="">Reservation</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong>Address Info:</strong>
+								</td>
+                                <td></td>
+							</tr>
+							<tr>
+								<td>
+									First Name:
+								</td>
+								<td>
+									<input type="text" name="firstname">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Last Name:
+								</td>
+								<td>
+									<input type="text" name="lastname">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Street Adress:
+								</td>
+								<td>
+									<input type="text" name="streetaddress">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									City:
+								</td>
+								<td>
+									<input type="text" name="City">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									State:
+								</td>
+								<td>
+									<input type="text" name="state" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Zip Code:
+								</td>
+								<td>
+									<input type="text" name="zipcode">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<strong>Billing Info:</strong>
+								</td>
+                                <td></td>
+							</tr>
+							<tr>
+								<td>
+									Card Type:
+								</td>
+								<td>
+									<select>
+										<option value="">Select One</option>
+										<option value="">-----</option>
+										<option value="">American Express</option>
+										<option value="">Discover</option>
+										<option value="">Master Card</option>
+										<option value="">Visa</option>
+									</select>
+								</td>
+                            </tr>
+							<tr>
+								<td>
+									Card Holder:
+								</td>
+								<td>
+									<input type="text" name="cardholder">
+								</td>
+                            </tr>
+							<tr>
+								<td>
+									Card Number:
+								</td>
+								<td>
+									<input type="password" name="cardnumber">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Security Code:
+								</td>
+								<td>
+									<input type="password" name="cvv">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Expiration:
+								</td>
+								<td>
+									<select>
+										<option value="">Month</option>
+										<option value="">-----</option>
+										<option value="">Jan</option>
+										<option value="">Feb</option>
+										<option value="">Mar</option>
+										<option value="">Apr</option>
+										<option value="">May</option>
+										<option value="">Jun</option>
+										<option value="">Jul</option>
+										<option value="">Aug</option>
+										<option value="">Sep</option>
+										<option value="">Oct</option>
+										<option value="">Nov</option>
+										<option value="">Dec</option>
+									</select>
+									<select>
+										<option value="">Year</option>
+										<option value="">-----</option>
+										<option value="">2017</option>
+										<option value="">2018</option>
+										<option value="">2019</option>
+										<option value="">2020</option>
+										<option value="">2011</option>
+										<option value="">2022</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td id="order">
+									<strong>Order:</strong><br>
+									Separate each item with a comma.
+								</td>
+								<td>
+									<textarea rows="10" cols="35">6 Chicken Kabobs, 2 Peanut Butter and Jelly Sandwitches etc.</textarea>
+								</td>
+							</tr>
+							<tr>
+								<td class="btn">
+									<button type="submit" onclick="alert('Submition complete!')" value="Submit">Submit</button>
+									<button type="reset" onclick="alert('fields reset!')" value="Reset">Reset</button>
+								</td>
+                                <td></td>
+							</tr>
+						</table>
+    			</form>
+					<img src="kabob1.jpg" alt="Kabob" class="image"><br>
+					<img src="kabob2.jpg" alt="Kabob" class="image"><br>
+					<img src="kabob3.jpg" alt="Kabob" class="image"><br>
+        </div>
+    </main>
+<footer>
+<h6>INTERNATIONAL HOUSE OF KABOB &copy; 2016 EMAIL:<a href="mailto:test@test.com">test@test.com</a></h6>
+<audio controls autoplay>
+  <source src="music.ogg" type="audio/ogg">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+</footer>
+	</div>
+</body>
+</html>

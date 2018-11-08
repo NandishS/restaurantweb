@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="styling_sheet.css">
+<title>International House of Kabob</title>
+<style>
+	main {
+		height: 450px;
+	}
+	main div {
+		margin: 0px;
+		padding: 25px;
+		width: 400px;
+		height: 400px;
+	}
+	#form {
+		float: left;
+	}
+	#members {
+		list-style-type: none;
+		float: right;
+	}
+	#members img {
+		padding: 20px;
+	}
+</style>
+</head>
+<body>
+	<div id="wrapper">
+	<header></header>
+    	<nav>
+        	<ul>
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="history.html">HISTORY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+	<main>
+        <div id="form">
+        	<h3>Contact Form</h3>
+        	<form method="post" id="contact">
+    			Full name:<br>
+    			<input type="text" name="fullname"><br>
+    			Subject:<br>
+    				<select>
+  						<option value="none">Select One</option>
+  						<option value="Blank">----------</option>
+  						<option value="General inquiry">General inquiry</option>
+  						<option value="File a complaint">File a complaint</option>
+  						<option value="Pay a compliment">Pay a compliment</option>
+					</select><br>
+    			Message:<br>
+    			<textarea rows="9" cols="35"></textarea><br><br>
+    			<button type="submit" onclick="alert('Submition complete!')" value="Submit">Submit</button>
+    			<button type="reset" onclick="alert('Fields reset!')" value="Reset">Reset</button>
+			</form>
+        </div>
+        <div id="members">
+        	<h3>Contact Info.</h3>
+        	Address: 123 Main St, Fairfax, Va 12345 <br>
+        	Phone: 111-222-3333 <br>
+        	Fax: 111-222-3344 <br>
+        	Email: contact@ihok.com <br>
+        	<h3>Find us on:</h3>
+        	<img src="tlogo.jpg" alt="Smiley face" height="50" width="50">
+        	<img src="fblogo.jpg" alt="Smiley face" height="50" width="50">
+        	<img src="inlogo.jpg" alt="Smiley face" height="50" width="50">
+        	<img src="g+logo.jpg" alt="Smiley face" height="50" width="50">
+        </div>
+    </main>
+<footer>
+<h6>INTERNATIONAL HOUSE OF KABOB &copy; 2016 EMAIL:<a href="mailto:test@test.com">test@test.com</a></h6>
+<audio controls autoplay>
+  <source src="music.ogg" type="audio/ogg">
+  <source src="music.mp3" type="audio/mpeg">
+</audio> 
+</footer>
+	</div>
+</body>
+</html>
